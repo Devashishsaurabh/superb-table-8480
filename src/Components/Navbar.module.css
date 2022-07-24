@@ -6,13 +6,17 @@
     /* border:1px solid red; */
     height:65px;
     width:100%;
-    position: sticky;
     display:flex;
+    position: sticky;
+    justify-content: space-around;
+    top: 0;
+    background-color: white ;
+    z-index: 1;
     align-items: center;
 }
 .cont1{
    height:90%;
-   width:70%;
+   width:83%;
    /* border:1px solid black; */
    margin:auto;
    display:flex;
@@ -22,8 +26,12 @@
 .mid{
     display:flex;
     justify-content: space-between;
+    position: relative;
     /* border:1px solid red; */
    
+}
+.pop{
+   position: absolute;
 }
 .mid li{
     margin-right: 20px;
@@ -32,6 +40,7 @@
 }
 .mid li:hover{
  color:#00baab;
+ cursor: pointer;
 }
 .mid li:last-child:hover{
     color:black;
